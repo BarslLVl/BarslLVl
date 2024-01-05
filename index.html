@@ -60,12 +60,9 @@
         </div>
     </section>
     <div id="videoContainer"> <!--Main Video-->
-        <video id="videoPlayer" autoplay muted>
-            <source src="Gallery/Video/Main-vid/medit1.mp4" type="video/mp4">
-            <source src="Gallery/Video/Main-vid/medit2.mp4" type="video/mp4">
-            <source src="Gallery/Video/Main-vid/medit3.mp4" type="video/mp4">
-            <source src="Gallery/Video/Main-vid/medit4.mp4" type="video/mp4">
+        <video id="videoPlayer" autoplay muted width="320" height="240"></video>>
         </video>
+        
         <div id="videoText">
             <h3>Online Meditation</h3>
             <p>Find your perfect place a cozy corner at home, a quiet park or beach, and even your own bedroom. Meditation is available at any time of the day, allowing you to find inner peace and harmony, regardless of whether it's dawn or dusk. The key is to find a quiet place where you can focus and immerse yourself in your practice. Allow yourself to savor this moment of tranquility and explore new horizons of your inner world.</p>
@@ -88,7 +85,19 @@
     </footer>
     <!--Font Script-->
     <script src="https://kit.fontawesome.com/4d2f5afdb5.js" crossorigin="anonymous"></script>
-    <!--JavaScript-->
-    <script src="index.js"></script>
+    <script>
+var videoPlayer = document.getElementById("videoPlayer");
+var sources = ["Gallery/Video/Main-vid/medit1.mp4", "Gallery/Video/Main-vid/medit4.mp4"];
+var currentVideo = 0;
+
+videoPlayer.src = sources[currentVideo];
+
+videoPlayer.addEventListener('ended', function() {
+  currentVideo++;
+  if (currentVideo >= sources.length) currentVideo = 0;
+  videoPlayer.src = sources[currentVideo];
+  videoPlayer.play();
+});
+    </script>
 </body>
 </html>

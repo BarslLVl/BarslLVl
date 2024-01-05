@@ -1,43 +1,72 @@
-# About Soul-Harmony
+# Soul-Harmony
+The Soul Harmony website is a landing page for all people of any age who are trying to find inner peace and tranquility, take their mind off all their problems and relax.
 
-## Purpose
-Soul Harmony is a website designed to provide users with access to meditation resources and help them achieve inner peace and harmony. The purpose of this website is to offer a platform where people can learn and practice meditation techniques and connect with others.
-
-## Value
 Soul Harmony brings value to users by offering a wide range of meditation practices, guides, and resources to help them start and develop their meditation journey. The website also provides the opportunity to join a supportive community where members can share their experiences, ask questions and receive support.
+![Main](Gallery/README-gallery/Main.png)
+## Features
+- Navigation
+    - The top navigation displays the name of the meditation site: Soul Harmony, which is linked at the top of the page. And also the name itself (the logo located at the top) is considered clickable, and when you click on the logo, you will be loaded onto the main page.
+    - All other navigation links are on the right, such as: "Home", "Gallery", "Sign Up", which lead to different pages, depending on what you want.
+    - Navigation is made in a font and color suitable for the background.
+    - Navigation clearly informs the user of the name of the website, and makes it easier to find the sections the user needs.
 
-## Deployment Procedure
-To deploy the Soul Harmony website, follow these steps:
+![nav](Gallery/README-gallery/Nav.png)
+- Header/Why Soul Harmony
+    - The header displays the name of the site, asking the user why us?
+    - Below is an image and answers to the question why Soul Harmony. What a user can come to us for.
+![whySH](Gallery/README-gallery/whySH.png)
+- Footer
+    - The footer is made in a font and color suitable for the background.
+    - The footer contains the social media links.
+    ![footer](Gallery/README-gallery/footer.png)
+- VideoPlayer
+    - The video player is a video that is played in the background.
+    - A video plays automatically, which is pleasant to watch and also relaxing.
+    - The video is also responsive, and it is displayed in a way that it is suitable for all devices.
+    ![videoPlayer](Gallery/README-gallery/main-vid.png)
 
-1. Choose a reliable hosting provider for your website.
-2. Register a domain name that reflects the essence of your site.
-3. Create and customize your website code using HTML, CSS, JavaScript, PHP and other programming languages if necessary.
-4. Make sure that all functions of your website are working correctly and there are no errors.
-5. Upload your website to your chosen hosting provider.
-6. Set up your domain name to point to your hosting provider.
-7. Spread the word about your site through social media, search engine optimization, and advertising.
+- Gallery
+    - The gallery is a page that displays the images of the meditation practices.
+    - The images are displayed in a way that it is suitable for all devices.
+![gallery](Gallery/README-gallery/gallery.png)
 
----
+- Sign Up
+    - The sign up page is a page that asks the user to fill in their details.
+    - The details are used to create a user account.
+    ![sgnup](Gallery/README-gallery/sgnUp.png)
 
-## Attribute
-I can’t give the exact resources where I got some parts of the code from or read about them and found out how it works, because I found all the information in various open resources, the main resource is [w3schools](https://www.w3schools.com/html/default.asp), unfortunately I cannot find other resources, there were very, very many of them.
-For example, the blog [w3schools](https://www.w3schools.com/php/php_forms.asp) also helped me a lot in creating “submit_form.php”, but there were other sources besides it that I can’t find.
+## Testing
+- I tested this page works in different browsers: Chrome, Opera, Internet Explorer.
+- I tested the page works on different devices: Laptop, Desktop, Tablet.
+- I have confirmed that the navigation, header, gallery, sign up, footer, video player work as intended, and easy to understand.
+## Bugs
+Solved bugs
+- The navigation is not responsive, and it is not displayed in a way that it is suitable for all devices.
+- The videoPlayer is not responsive, and it is not displayed in a way that it is suitable for all devices(shows black screen).
+- Gallery photos are not responsive, and they are not displayed in a way that it is suitable for all devices.
+## Validator Testing
+- HTML
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input)
+- CSS
+    - No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+- Accessibility
+    - I confirmed that the selected colors and fonts are easy to read and accessible by running them through Lighthouse.
+![test](gallery/README-gallery/test.png)
 
-Also, to create the "Video Autoplayer" using PHP language which is located on the "Home" page at the very bottom, I used information from various open resources, such as [Mdn API](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Video_and_audio_APIs) and [YouTube Player API](https://developers.google.com/youtube/iframe_api_reference).
+# Unfixed Bugs
+- Optimize the site more (reduce the load due to photos). Because of this, the test is larger and shows that the optimization is not very good.
 
----
+## Deployment
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+    - In the GitHub repository, navigate to the Settings tab
+    - From the source section drop-down menu, select the Master Branch
+    - Once the master branch has been selected, the page provided the link to the completed website.
 
-## Screenshots of the finished project
-### Home Page
-![Home 1](./Home1.png)
-![Home 2](./Home2.png)
-![Home 3](./Home3.png)
+The live link can be found here - [Soul Harmony](https://barsllvl.github.io/barsllvl/).
 
----
-### Gallery Page
-![Gallery 1](./Gallery1.png)
-![Gallery 2](./Gallery2.png)
-
----
-### Sign up
-![Sign up](./Signup1.png)
+## Credits
+### Content
+- Code for adjusting and customizing images for index/gallery.html, was taken from [w3schools](https://www.w3schools.com).
+- The code for setting up videoPlayer was taken in part from [YouTube Player API](https://developers.google.com/youtube/iframe_api_reference) and [w3schools](https://www.w3schools.com).
+### Media
+- Images and videos for the website were taken from [Pexels](https://www.pexels.com)
