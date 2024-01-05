@@ -18,7 +18,9 @@ Soul Harmony brings value to users by offering a wide range of meditation practi
 - Footer
     - The footer is made in a font and color suitable for the background.
     - The footer contains the social media links.
-    ![footer](Gallery/README-gallery/footer.png)
+      
+       ![footer](Gallery/README-gallery/footer.png)
+
 - VideoPlayer
     - The video player is a video that is played in the background.
     - A video plays automatically, which is pleasant to watch and also relaxing.
@@ -51,7 +53,7 @@ Solved bugs
     - No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
 - Accessibility
     - I confirmed that the selected colors and fonts are easy to read and accessible by running them through Lighthouse.
-![test](gallery/README-gallery/test.png)
+  ![test](Gallery/README-gallery/test.png)
 
 # Unfixed Bugs
 - Optimize the site more (reduce the load due to photos). Because of this, the test is larger and shows that the optimization is not very good.
