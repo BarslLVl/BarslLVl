@@ -333,7 +333,6 @@ overflow : hidden;
 margin-bottom : 0;
 }
 #videoPlayer {
-position : center;
 top : 0;
 left : 0;
 width : 100%;
@@ -342,7 +341,7 @@ object-fit : cover;
 z-index : -1;
 opacity : 1;
 transition : opacity 1s;
-}  
+}
 #videoText {
 position : absolute;
 bottom : 0;
