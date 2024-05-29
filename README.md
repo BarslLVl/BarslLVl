@@ -64,7 +64,7 @@ Solved bugs
 - Accessibility
     - I confirmed that the selected colors and fonts are easy to read and accessible by running them through Lighthouse.
     
-  1. Home page![test1](Assets/README-gallery/test.png)
+  1. Home page ![test1](Assets/README-gallery/test.png)
   2. Gallery page ![test2](Assets/README-gallery/test2.png)
   3. Sign-up page ![test3](Assets/README-gallery/test3.png)
 
