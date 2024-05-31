@@ -70,33 +70,33 @@
     <footer>
         <hr class="footer1">
         <ul class="social-networks">
-            <li><a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="social-icons">
+            <li><a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="social-icons" aria-label="(Opens instagram in a new tab)">
                 <i class="fab fa-instagram"></i></a></li>
-            <li><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="social-icons">
+            <li><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="social-icons" aria-label="(Opens facebook in a new tab)">
                 <i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="social-icons">
+            <li><a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="social-icons" aria-label="(Opens youtube in a new tab)">
                 <i class="fab fa-youtube"></i></a></li>
-            <li><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="social-icons">
+            <li><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="social-icons" aria-label="(Opens twitter in a new tab)">
                 <i class="fab fa-x-twitter"></i></a></li>
-            <li><a href="https://www.reddit.com" target="_blank" rel="noopener noreferrer" class="social-icons">
+            <li><a href="https://www.reddit.com" target="_blank" rel="noopener noreferrer" class="social-icons" aria-label="(Opens reddit in a new tab)">
                 <i class="fab fa-reddit"></i></a></li>
         </ul>
     </footer>
     <!--Font Script-->
     <script src="https://kit.fontawesome.com/4d2f5afdb5.js" crossorigin="anonymous"></script>
     <script>
-var videoPlayer = document.getElementById("videoPlayer");
-var sources = ["Assets/Videos/Main-vid/medit1.mp4", "Assets/Videos/Main-vid/medit4.mp4"];
-var currentVideo = 0;
+        var videoPlayer = document.getElementById("videoPlayer");
+        var sources = ["Assets/Videos/Main-vid/medit1.mp4", "Assets/Videos/Main-vid/medit4.mp4"];
+        var currentVideo = 0;
 
-videoPlayer.src = sources[currentVideo];
+        videoPlayer.src = sources[currentVideo];
 
-videoPlayer.addEventListener('ended', function() {
-  currentVideo++;
-  if (currentVideo >= sources.length) currentVideo = 0;
-  videoPlayer.src = sources[currentVideo];
-  videoPlayer.play();
-});
+        videoPlayer.addEventListener('ended', function() {
+        currentVideo++;
+        if (currentVideo >= sources.length) currentVideo = 0;
+        videoPlayer.src = sources[currentVideo];
+        videoPlayer.play();
+        });
     </script>
 </body>
 </html>
