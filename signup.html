@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Soul Harmony, Meditation for Peace and Inner Balance">
     <title>Soul Harmony</title>
     <!-- Stylesheet -->
-    <link href="Assets/CSS/index.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/index.css" rel="stylesheet" type="text/css">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/4d2f5afdb5.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <div class="logo">
             <a href="index.html">
-                <img src="Assets/Gallery/Logo/logo-no-background.png" alt="Soul Harmony Logo">
+                <img src="assets/gallery/logo/logo-no-background.png" alt="Soul Harmony Logo">
             </a>
         </div>
         <nav>
@@ -42,42 +44,48 @@
     <footer>
         <hr class="footer1">
         <ul class="social-networks">
-            <li><a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="social-icons" aria-label="(Opens instagram in a new tab)">
-                <i class="fab fa-instagram"></i></a></li>
-            <li><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="social-icons" aria-label="(Opens facebook in a new tab)">
-                <i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="social-icons" aria-label="(Opens youtube in a new tab)">
-                <i class="fab fa-youtube"></i></a></li>
-            <li><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="social-icons" aria-label="(Opens twitter in a new tab)">
-                <i class="fab fa-x-twitter"></i></a></li>
-            <li><a href="https://www.reddit.com" target="_blank" rel="noopener noreferrer" class="social-icons" aria-label="(Opens reddit in a new tab)">
-                <i class="fab fa-reddit"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="social-icons"
+                    aria-label="(Opens instagram in a new tab)">
+                    <i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="social-icons"
+                    aria-label="(Opens facebook in a new tab)">
+                    <i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="social-icons"
+                    aria-label="(Opens youtube in a new tab)">
+                    <i class="fab fa-youtube"></i></a></li>
+            <li><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="social-icons"
+                    aria-label="(Opens twitter in a new tab)">
+                    <i class="fab fa-x-twitter"></i></a></li>
+            <li><a href="https://www.reddit.com" target="_blank" rel="noopener noreferrer" class="social-icons"
+                    aria-label="(Opens reddit in a new tab)">
+                    <i class="fab fa-reddit"></i></a></li>
         </ul>
     </footer>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             const form = document.querySelector('.signup-form1');
 
-            form.addEventListener('submit', function(event) {
+            form.addEventListener('submit', function (event) {
                 event.preventDefault();
 
                 // Create a thank you message block
-                 const thankYouMessage = document.createElement('div');
-                 thankYouMessage.textContent = "Thank you for your submission! You will be redirected to the homepage in 10 seconds.";
-                 thankYouMessage.classList.add('thank-you-message');
-                 document.body.appendChild(thankYouMessage);
+                const thankYouMessage = document.createElement('div');
+                thankYouMessage.textContent = "Thank you for your submission! You will be redirected to the homepage in 10 seconds.";
+                thankYouMessage.classList.add('thank-you-message');
+                document.body.appendChild(thankYouMessage);
 
-                 // Smooth appearance of the message
-                 setTimeout(function() {
-                     thankYouMessage.style.top = '0';
-                 }, 100);
+                // Smooth appearance of the message
+                setTimeout(function () {
+                    thankYouMessage.style.top = '0';
+                }, 100);
 
-                 // Redirect after 10 seconds
-                 setTimeout(function() {
-                     window.location.href = 'index.html';
-                 }, 10000);
+                // Redirect after 10 seconds
+                setTimeout(function () {
+                    window.location.href = 'index.html';
+                }, 10000);
             });
         });
     </script>
 </body>
+
 </html>
