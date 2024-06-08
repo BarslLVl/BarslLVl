@@ -303,7 +303,7 @@ li a:hover:not(.active) {
 /* Sign-up Form */
 .signup-form {
     clear: left;
-    background: url('../Gallery/sign-up/signup-p.jpg') no-repeat;
+    background: url('../gallery/sign-up/signup-p.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     height: 900px;
