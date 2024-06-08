@@ -2,7 +2,7 @@
 The Soul Harmony website is a landing page for all people of any age who are trying to find inner peace and tranquility, take their mind off all their problems and relax.
 
 Soul Harmony brings value to users by offering a wide range of meditation practices, guides, and resources to help them start and develop their meditation journey. The website also provides the opportunity to join a supportive community where members can share their experiences, ask questions and receive support.
-![Main](assets/readme-gallery/main.png)
+![Main](docs/main.png)
 ## Features
 - Navigation
     - The top navigation displays the name of the meditation site: Soul Harmony, which is linked at the top of the page. And also the name itself (the logo located at the top) is considered clickable, and when you click on the logo, you will be loaded onto the main page.
@@ -10,40 +10,40 @@ Soul Harmony brings value to users by offering a wide range of meditation practi
     - Navigation is made in a font and color suitable for the background.
     - Navigation clearly informs the user of the name of the website, and makes it easier to find the sections the user needs.
 
-![nav](assets/readme-gallery/nav.png)
+![nav](docs/nav.png)
 
 - Logo
     - The logo is a simple image, which is located at the top of the page.
     - The logo is clickable, and when you click on the logo, you will be loaded onto the main page.
-    ![logo](assets/readme-gallery/logo.png)
+    ![logo](docs/logo.png)
 
 - Header/Why Soul Harmony
     - The header displays the name of the site, asking the user why us?
     - Below is an image and answers to the question why Soul Harmony. What a user can come to us for.
-![whySH](assets/readme-gallery/whysh.png)
+![whySH](docs/whysh.png)
 - Footer
     - The footer is made in a font and color suitable for the background.
     - The footer contains the social media links.
       
-       ![footer](assets/readme-gallery/footer.png)
+       ![footer](docs/footer.png)
 
 - VideoPlayer
     - The video player is a video that is played in the background.
     - A video plays automatically, which is pleasant to watch and also relaxing.
     - The video is also responsive, and it is displayed in a way that it is suitable for all devices.
-    ![videoPlayer](assets/readme-gallery/main-vid.png)
+    ![videoPlayer](docs/main-vid.png)
 
 - Gallery
     - The gallery is a page that displays the images of the meditation practices.
     - The images are displayed in a way that it is suitable for all devices.
-![gallery](assets/readme-gallery/gallery.png)
+![gallery](docs/gallery.png)
 
 - Sign Up
     - The sign up page is a page that asks the user to fill in their details.
     - The details are used to create a user account.
-    ![sgnup](assets/readme-gallery/sgnup.png)
+    ![sgnup](docs/sgnup.png)
     - The sign up notification upon registration with automatic transition to the main page after 10 seconds
-    ![sgnup-notif](assets/readme-gallery/sgnup-notif.png)
+    ![sgnup-notif](docs/sgnup-notif.png)
 
 ## Testing
 - I tested this page works in different browsers: Chrome, Opera, Internet Explorer.
@@ -57,24 +57,24 @@ Solved bugs
 ## Validator Testing
 - HTML
     - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/#validate_by_input)
-    ![html-check](assets/readme-gallery/html-check.png)
+    ![html-check](docs/html-check.png)
 - CSS
     - No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
-    ![css-check](assets/readme-gallery/css-check.png)
+    ![css-check](docs/css-check.png)
 - Accessibility
     - I confirmed that the selected colors and fonts are easy to read and accessible by running them through Lighthouse.
 
   1. Home page
   
-  ![test1](assets/readme-gallery/test.png)
+  ![test1](docs/test.png)
 
   2. Gallery page
 
-  ![test2](assets/readme-gallery/test2.png)
+  ![test2](docs/test2.png)
 
   3. Sign-up page
 
-  ![test3](assets/readme-gallery/test3.png)
+  ![test3](docs/test3.png)
 
 # Unfixed Bugs
 - No bugs were found.
@@ -97,4 +97,4 @@ The live link can be found here - [Soul Harmony](https://barsllvl.github.io/bars
 - The code for setting up videoPlayer was taken in part from [YouTube Player API](https://developers.google.com/youtube/iframe_api_reference) and [w3schools](https://www.w3schools.com).
 - To create my logo I used [myfreelogomaker](https://myfreelogomaker.com).
 ### Media
-- Images and videos for the website were taken from [Pexels](https://www.pexels.com)
+- All media (video/photo) for my site are taken from the site -  [Pexels](https://www.pexels.com)
