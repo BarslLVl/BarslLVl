@@ -79,7 +79,7 @@ h3 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('../Gallery/Hero-images/background3.jpg') center no-repeat;
+    background: url('../gallery/hero-images/background3.jpg') center no-repeat;
 
     /* Animation and Text */
     animation-name: hero-zoom;
